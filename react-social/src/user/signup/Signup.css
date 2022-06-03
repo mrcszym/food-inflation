@@ -1,18 +1,19 @@
 .signup-container {
     text-align: center;
+    background: rgba(247, 247, 247, 0.568);
 }
 
-
 .signup-content {
-    background: #fff;
     box-shadow: 0 1px 11px rgba(0, 0, 0, 0.27);
     border-radius: 2px;
     width: 500px;
     display: inline-block;
     margin-top: 30px;
+    margin-bottom: 30px;
     vertical-align: middle;
-    position: relative;    
+    position: relative;
     padding: 35px;
+    background: linear-gradient(326deg, rgba(2, 0, 36, 1) 0%, rgba(125, 213, 226, 1) 0%, rgba(160, 160, 218, 1) 32%, rgba(193, 215, 219, 1) 100%);
 }
 
 .social-btn {
