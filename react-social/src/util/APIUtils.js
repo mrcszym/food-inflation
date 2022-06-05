@@ -1,6 +1,6 @@
 import { API_BASE_URL, ACCESS_TOKEN } from '../constants';
 
-const request = (options) => {
+const request = async (options) => {
     const headers = new Headers({
         'Content-Type': 'application/json',
     })
@@ -12,7 +12,7 @@ const request = (options) => {
     const defaults = {headers: headers};
     options = Object.assign({}, defaults, options);
 
-    return fetch(options.url, options)
+    return await fetch(options.url, options)
     .then(response => 
         response.json().then(json => {
             if(!response.ok) {
@@ -23,7 +23,7 @@ const request = (options) => {
     );
 };
 
-export function getCurrentUser() {
+export async function getCurrentUser() {
     if(!localStorage.getItem(ACCESS_TOKEN)) {
         return Promise.reject("No access token set.");
     }
@@ -34,7 +34,7 @@ export function getCurrentUser() {
     });
 }
 
-export function login(loginRequest) {
+export async function login(loginRequest) {
     return request({
         url: API_BASE_URL + "/auth/login",
         method: 'POST',
@@ -42,10 +42,17 @@ export function login(loginRequest) {
     });
 }
 
-export function signup(signupRequest) {
+export async function signup(signupRequest) {
     return request({
         url: API_BASE_URL + "/auth/signup",
         method: 'POST',
         body: JSON.stringify(signupRequest)
     });
+}
+
+export async function showProduct() {
+    return await request({
+        url: API_BASE_URL + "/product/1",
+        method: 'GET'
+    })
 }
