@@ -1,22 +1,31 @@
 package com.example.springsocial.controller;
 
-import com.example.springsocial.exception.ResourceNotFoundException;
 import com.example.springsocial.model.Product;
-import com.example.springsocial.repository.ProductRepository;
+import com.example.springsocial.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+import java.util.Optional;
 
 @RestController
 public class ProductController {
 
     @Autowired
-    private ProductRepository productRepository;
+    private ProductService productService;
 
-    @GetMapping("/product/{id}")
+    @GetMapping("/product/id/{id}")
     @PreAuthorize("hasRole('USER')")
     @ResponseBody
-    public Product getProductById(@PathVariable Long id){
-        return productRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException("Product", "id", id));
+    public Optional<Product> getProductById(@PathVariable Long id) {
+        return productService.getProduct(id);
+    }
+
+    @GetMapping("/product/name/{name}")
+    @PreAuthorize("hasRole('USER')")
+    @ResponseBody
+    public List<Product> getProductByName(@PathVariable String name) {
+        return productService.getProductPricesByName(name);
     }
 }
