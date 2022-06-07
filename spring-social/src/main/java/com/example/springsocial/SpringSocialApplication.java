@@ -7,6 +7,8 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 
 import java.sql.SQLException;
 
+import static com.example.springsocial.controller.JsonDownload.getInflationToJson;
+import static com.example.springsocial.controller.JsonDownload.getProductsToJson;
 import static com.example.springsocial.controller.InflationController.getInflationDateValueFromDb;
 import static com.example.springsocial.controller.ProductController.getProductsDatePriceFromDb;
 
@@ -14,12 +16,16 @@ import static com.example.springsocial.controller.ProductController.getProductsD
 @EnableConfigurationProperties(AppProperties.class)
 public class SpringSocialApplication {
 
-	public static void main(String[] args) throws SQLException, ClassNotFoundException {
+	public static void main(String[] args) throws Exception {
 		SpringApplication.run(SpringSocialApplication.class, args);
 //
 //		String nameOfProduct = "chleb 1000g";
 //		String startDate = "2021-05";
 //		String endDate = "2022-05";
+
+//		getProductsToJson();
+//		getInflationToJson();
+
 //		selectsCheck(nameOfProduct, startDate, endDate);
 	}
 
