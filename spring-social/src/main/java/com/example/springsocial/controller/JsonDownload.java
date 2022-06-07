@@ -11,20 +11,11 @@ import java.util.Objects;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
+import static com.example.springsocial.controller.XmlDownload.getResultSet;
+
 public class JsonDownload {
     public static ResultSet RetrieveData(String type) throws Exception {
-        Class.forName("com.mysql.jdbc.Driver");
-        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3305/foodinfdb", "root", "SpaceMysql1!");
-        Statement stmt = conn.createStatement();
-        ResultSet rs;
-
-        if(Objects.equals(type, "products")) {
-            rs = stmt.executeQuery("SELECT id, product_name, month_name, price FROM products");
-            return rs;
-        }
-
-        rs = stmt.executeQuery("SELECT id, month_name, InfValue FROM inflation");
-        return rs;
+        return getResultSet(type);
     }
     public static void getProductsToJson() throws Exception {
 
@@ -34,7 +25,6 @@ public class JsonDownload {
 
         while(rs.next()) {
             JSONObject record = new JSONObject();
-            //Inserting key-value pairs into the json object
             record.put("ID", rs.getInt("id"));
             record.put("Product name", rs.getString("product_name"));
             record.put("Year-month", rs.getString("month_name"));
