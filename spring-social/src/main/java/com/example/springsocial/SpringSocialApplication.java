@@ -7,13 +7,10 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 
 import java.sql.SQLException;
 
-import static com.example.springsocial.controller.JsonDownload.getInflationToJson;
-import static com.example.springsocial.controller.JsonDownload.getProductsToJson;
 import static com.example.springsocial.controller.InflationController.getInflationDateValueFromDb;
 import static com.example.springsocial.controller.ProductController.getProductsDatePriceFromDb;
+import static com.example.springsocial.controller.ReadJson.readJson;
 import static com.example.springsocial.controller.ReadXml.readXml;
-import static com.example.springsocial.controller.XmlDownload.getInflationToXml;
-import static com.example.springsocial.controller.XmlDownload.getProductsToXml;
 
 @SpringBootApplication
 @EnableConfigurationProperties(AppProperties.class)
@@ -33,7 +30,9 @@ public class SpringSocialApplication {
 
 //		getProductsToXml();
 //		getInflationToXml();
+
 //		readXml();
+		readJson();
 	}
 
 	public static void selectsCheck(String nameOfProduct, String startDate, String endDate) throws SQLException, ClassNotFoundException {

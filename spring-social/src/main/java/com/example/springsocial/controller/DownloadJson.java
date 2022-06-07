@@ -2,18 +2,14 @@ package com.example.springsocial.controller;
 
 import java.io.FileWriter;
 import java.io.IOException;
-import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.ResultSet;
-import java.sql.Statement;
-import java.util.Objects;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
-import static com.example.springsocial.controller.XmlDownload.getResultSet;
+import static com.example.springsocial.controller.DownloadXml.getResultSet;
 
-public class JsonDownload {
+public class DownloadJson {
     public static ResultSet RetrieveData(String type) throws Exception {
         return getResultSet(type);
     }

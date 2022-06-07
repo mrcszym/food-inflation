@@ -1,0 +1,1071 @@
+{
+    "Products data": [{
+            "Product name": "chleb 1000g",
+            "ID": 1,
+            "Average price": "5.40",
+            "Year-month": "2022-05"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 2,
+            "Average price": "4.63",
+            "Year-month": "2022-04"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 3,
+            "Average price": "5.73",
+            "Year-month": "2022-03"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 4,
+            "Average price": "4.20",
+            "Year-month": "2022-02"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 5,
+            "Average price": "4.51",
+            "Year-month": "2022-01"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 6,
+            "Average price": "4.72",
+            "Year-month": "2021-12"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 7,
+            "Average price": "4.13",
+            "Year-month": "2021-11"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 8,
+            "Average price": "4.47",
+            "Year-month": "2021-10"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 9,
+            "Average price": "4.13",
+            "Year-month": "2021-09"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 10,
+            "Average price": "3.69",
+            "Year-month": "2021-08"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 11,
+            "Average price": "4.99",
+            "Year-month": "2021-07"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 12,
+            "Average price": "3.73",
+            "Year-month": "2021-06"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 13,
+            "Average price": "4.80",
+            "Year-month": "2021-05"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 14,
+            "Average price": "4.47",
+            "Year-month": "2021-04"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 15,
+            "Average price": "3.92",
+            "Year-month": "2021-03"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 16,
+            "Average price": "3.70",
+            "Year-month": "2021-02"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 17,
+            "Average price": "4.26",
+            "Year-month": "2021-01"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 18,
+            "Average price": "4.30",
+            "Year-month": "2020-12"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 19,
+            "Average price": "4.31",
+            "Year-month": "2020-11"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 20,
+            "Average price": "3.59",
+            "Year-month": "2020-10"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 21,
+            "Average price": "3.99",
+            "Year-month": "2020-09"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 22,
+            "Average price": "4.02",
+            "Year-month": "2020-08"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 23,
+            "Average price": "4.04",
+            "Year-month": "2020-07"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 24,
+            "Average price": "3.96",
+            "Year-month": "2020-06"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 25,
+            "Average price": "3.71",
+            "Year-month": "2020-05"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 26,
+            "Average price": "3.60",
+            "Year-month": "2020-04"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 27,
+            "Average price": "3.60",
+            "Year-month": "2020-03"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 28,
+            "Average price": "3.64",
+            "Year-month": "2020-02"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 29,
+            "Average price": "4.24",
+            "Year-month": "2020-01"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 30,
+            "Average price": "3.41",
+            "Year-month": "2019-12"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 31,
+            "Average price": "4.43",
+            "Year-month": "2019-11"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 32,
+            "Average price": "3.67",
+            "Year-month": "2019-10"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 33,
+            "Average price": "4.30",
+            "Year-month": "2019-09"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 34,
+            "Average price": "3.73",
+            "Year-month": "2019-08"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 35,
+            "Average price": "4.20",
+            "Year-month": "2019-07"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 36,
+            "Average price": "3.67",
+            "Year-month": "2019-06"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 37,
+            "Average price": "4.14",
+            "Year-month": "2019-05"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 38,
+            "Average price": "3.53",
+            "Year-month": "2019-04"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 39,
+            "Average price": "4.10",
+            "Year-month": "2019-03"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 40,
+            "Average price": "3.58",
+            "Year-month": "2019-02"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 41,
+            "Average price": "3.89",
+            "Year-month": "2019-01"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 42,
+            "Average price": "3.15",
+            "Year-month": "2018-12"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 43,
+            "Average price": "3.88",
+            "Year-month": "2018-11"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 44,
+            "Average price": "3.98",
+            "Year-month": "2018-10"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 45,
+            "Average price": "3.42",
+            "Year-month": "2018-09"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 46,
+            "Average price": "3.44",
+            "Year-month": "2018-08"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 47,
+            "Average price": "3.59",
+            "Year-month": "2018-07"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 48,
+            "Average price": "3.36",
+            "Year-month": "2018-06"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 49,
+            "Average price": "2.85",
+            "Year-month": "2018-05"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 50,
+            "Average price": "3.57",
+            "Year-month": "2018-04"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 51,
+            "Average price": "3.27",
+            "Year-month": "2018-03"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 52,
+            "Average price": "3.77",
+            "Year-month": "2018-02"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 53,
+            "Average price": "3.04",
+            "Year-month": "2018-01"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 54,
+            "Average price": "3.24",
+            "Year-month": "2017-12"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 55,
+            "Average price": "3.32",
+            "Year-month": "2017-11"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 56,
+            "Average price": "3.68",
+            "Year-month": "2017-10"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 57,
+            "Average price": "3.09",
+            "Year-month": "2017-09"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 58,
+            "Average price": "3.79",
+            "Year-month": "2017-08"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 59,
+            "Average price": "3.07",
+            "Year-month": "2017-07"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 60,
+            "Average price": "3.74",
+            "Year-month": "2017-06"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 61,
+            "Average price": "3.06",
+            "Year-month": "2017-05"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 62,
+            "Average price": "3.86",
+            "Year-month": "2017-04"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 63,
+            "Average price": "2.98",
+            "Year-month": "2017-03"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 64,
+            "Average price": "3.11",
+            "Year-month": "2017-02"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 65,
+            "Average price": "3.54",
+            "Year-month": "2017-01"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 66,
+            "Average price": "3.13",
+            "Year-month": "2016-12"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 67,
+            "Average price": "3.50",
+            "Year-month": "2016-11"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 68,
+            "Average price": "3.01",
+            "Year-month": "2016-10"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 69,
+            "Average price": "3.31",
+            "Year-month": "2016-09"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 70,
+            "Average price": "3.07",
+            "Year-month": "2016-08"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 71,
+            "Average price": "3.86",
+            "Year-month": "2016-07"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 72,
+            "Average price": "3.30",
+            "Year-month": "2016-06"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 73,
+            "Average price": "3.40",
+            "Year-month": "2016-05"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 74,
+            "Average price": "3.36",
+            "Year-month": "2016-04"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 75,
+            "Average price": "3.52",
+            "Year-month": "2016-03"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 76,
+            "Average price": "3.44",
+            "Year-month": "2016-02"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 77,
+            "Average price": "3.35",
+            "Year-month": "2016-01"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 78,
+            "Average price": "3.34",
+            "Year-month": "2015-12"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 79,
+            "Average price": "3.53",
+            "Year-month": "2015-11"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 80,
+            "Average price": "3.29",
+            "Year-month": "2015-10"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 81,
+            "Average price": "3.39",
+            "Year-month": "2015-09"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 82,
+            "Average price": "3.32",
+            "Year-month": "2015-08"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 83,
+            "Average price": "3.60",
+            "Year-month": "2015-07"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 84,
+            "Average price": "3.29",
+            "Year-month": "2015-06"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 85,
+            "Average price": "3.41",
+            "Year-month": "2015-05"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 86,
+            "Average price": "3.30",
+            "Year-month": "2015-04"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 87,
+            "Average price": "3.21",
+            "Year-month": "2015-03"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 88,
+            "Average price": "3.29",
+            "Year-month": "2015-02"
+        },
+        {
+            "Product name": "chleb 1000g",
+            "ID": 89,
+            "Average price": "3.33",
+            "Year-month": "2015-01"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 90,
+            "Average price": "0.45",
+            "Year-month": "2022-05"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 91,
+            "Average price": "0.33",
+            "Year-month": "2022-04"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 92,
+            "Average price": "0.44",
+            "Year-month": "2022-03"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 93,
+            "Average price": "0.33",
+            "Year-month": "2022-02"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 94,
+            "Average price": "0.33",
+            "Year-month": "2022-01"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 95,
+            "Average price": "0.38",
+            "Year-month": "2021-12"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 96,
+            "Average price": "0.29",
+            "Year-month": "2021-11"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 97,
+            "Average price": "0.35",
+            "Year-month": "2021-10"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 98,
+            "Average price": "0.28",
+            "Year-month": "2021-09"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 99,
+            "Average price": "0.28",
+            "Year-month": "2021-08"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 100,
+            "Average price": "0.39",
+            "Year-month": "2021-07"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 101,
+            "Average price": "0.27",
+            "Year-month": "2021-06"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 102,
+            "Average price": "0.31",
+            "Year-month": "2021-05"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 103,
+            "Average price": "0.35",
+            "Year-month": "2021-04"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 104,
+            "Average price": "0.28",
+            "Year-month": "2021-03"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 105,
+            "Average price": "0.30",
+            "Year-month": "2021-02"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 106,
+            "Average price": "0.29",
+            "Year-month": "2021-01"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 107,
+            "Average price": "0.29",
+            "Year-month": "2020-12"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 108,
+            "Average price": "0.29",
+            "Year-month": "2020-11"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 109,
+            "Average price": "0.27",
+            "Year-month": "2020-10"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 110,
+            "Average price": "0.27",
+            "Year-month": "2020-09"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 111,
+            "Average price": "0.29",
+            "Year-month": "2020-08"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 112,
+            "Average price": "0.29",
+            "Year-month": "2020-07"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 113,
+            "Average price": "0.29",
+            "Year-month": "2020-06"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 114,
+            "Average price": "0.30",
+            "Year-month": "2020-05"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 115,
+            "Average price": "0.29",
+            "Year-month": "2020-04"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 116,
+            "Average price": "0.28",
+            "Year-month": "2020-03"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 117,
+            "Average price": "0.30",
+            "Year-month": "2020-02"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 118,
+            "Average price": "0.37",
+            "Year-month": "2020-01"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 119,
+            "Average price": "0.25",
+            "Year-month": "2019-12"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 120,
+            "Average price": "0.41",
+            "Year-month": "2019-11"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 121,
+            "Average price": "0.27",
+            "Year-month": "2019-10"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 122,
+            "Average price": "0.40",
+            "Year-month": "2019-09"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 123,
+            "Average price": "0.27",
+            "Year-month": "2019-08"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 124,
+            "Average price": "0.38",
+            "Year-month": "2019-07"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 125,
+            "Average price": "0.27",
+            "Year-month": "2019-06"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 126,
+            "Average price": "0.38",
+            "Year-month": "2019-05"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 127,
+            "Average price": "0.26",
+            "Year-month": "2019-04"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 128,
+            "Average price": "0.36",
+            "Year-month": "2019-03"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 129,
+            "Average price": "0.27",
+            "Year-month": "2019-02"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 130,
+            "Average price": "0.36",
+            "Year-month": "2019-01"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 131,
+            "Average price": "0.25",
+            "Year-month": "2018-12"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 132,
+            "Average price": "0.35",
+            "Year-month": "2018-11"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 133,
+            "Average price": "0.38",
+            "Year-month": "2018-10"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 134,
+            "Average price": "0.30",
+            "Year-month": "2018-09"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 135,
+            "Average price": "0.30",
+            "Year-month": "2018-08"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 136,
+            "Average price": "0.31",
+            "Year-month": "2018-07"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 137,
+            "Average price": "0.30",
+            "Year-month": "2018-06"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 138,
+            "Average price": "0.23",
+            "Year-month": "2018-05"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 139,
+            "Average price": "0.35",
+            "Year-month": "2018-04"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 140,
+            "Average price": "0.28",
+            "Year-month": "2018-03"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 141,
+            "Average price": "0.37",
+            "Year-month": "2018-02"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 142,
+            "Average price": "0.25",
+            "Year-month": "2018-01"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 143,
+            "Average price": "0.28",
+            "Year-month": "2017-12"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 144,
+            "Average price": "0.29",
+            "Year-month": "2017-11"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 145,
+            "Average price": "0.33",
+            "Year-month": "2017-10"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 146,
+            "Average price": "0.25",
+            "Year-month": "2017-09"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 147,
+            "Average price": "0.34",
+            "Year-month": "2017-08"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 148,
+            "Average price": "0.25",
+            "Year-month": "2017-07"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 149,
+            "Average price": "0.36",
+            "Year-month": "2017-06"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 150,
+            "Average price": "0.24",
+            "Year-month": "2017-05"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 151,
+            "Average price": "0.37",
+            "Year-month": "2017-04"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 152,
+            "Average price": "0.24",
+            "Year-month": "2017-03"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 153,
+            "Average price": "0.26",
+            "Year-month": "2017-02"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 154,
+            "Average price": "0.34",
+            "Year-month": "2017-01"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 155,
+            "Average price": "0.26",
+            "Year-month": "2016-12"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 156,
+            "Average price": "0.34",
+            "Year-month": "2016-11"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 157,
+            "Average price": "0.22",
+            "Year-month": "2016-10"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 158,
+            "Average price": "0.29",
+            "Year-month": "2016-09"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 159,
+            "Average price": "0.23",
+            "Year-month": "2016-08"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 160,
+            "Average price": "0.35",
+            "Year-month": "2016-07"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 161,
+            "Average price": "0.26",
+            "Year-month": "2016-06"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 162,
+            "Average price": "0.28",
+            "Year-month": "2016-05"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 163,
+            "Average price": "0.26",
+            "Year-month": "2016-04"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 164,
+            "Average price": "0.28",
+            "Year-month": "2016-03"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 165,
+            "Average price": "0.27",
+            "Year-month": "2016-02"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 166,
+            "Average price": "0.25",
+            "Year-month": "2016-01"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 167,
+            "Average price": "0.28",
+            "Year-month": "2015-12"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 168,
+            "Average price": "0.27",
+            "Year-month": "2015-11"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 169,
+            "Average price": "0.26",
+            "Year-month": "2015-10"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 170,
+            "Average price": "0.28",
+            "Year-month": "2015-09"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 171,
+            "Average price": "0.25",
+            "Year-month": "2015-08"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 172,
+            "Average price": "0.28",
+            "Year-month": "2015-07"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 173,
+            "Average price": "0.26",
+            "Year-month": "2015-06"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 174,
+            "Average price": "0.28",
+            "Year-month": "2015-05"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 175,
+            "Average price": "0.26",
+            "Year-month": "2015-04"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 176,
+            "Average price": "0.27",
+            "Year-month": "2015-03"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 177,
+            "Average price": "0.26",
+            "Year-month": "2015-02"
+        },
+        {
+            "Product name": "bulka kajzerka 50g",
+            "ID": 178,
+            "Average price": "0.28",
+            "Year-month": "2015-01"
+        }
+    ]
+}

@@ -16,7 +16,7 @@ import java.io.OutputStream;
 import java.sql.*;
 import java.util.Objects;
 
-public class XmlDownload {
+public class DownloadXml {
     public static ResultSet RetrieveData(String type) throws Exception {
         return getResultSet(type);
     }
