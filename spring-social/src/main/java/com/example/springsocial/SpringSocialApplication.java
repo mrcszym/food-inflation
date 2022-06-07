@@ -33,7 +33,7 @@ public class SpringSocialApplication {
 
 //		getProductsToXml();
 //		getInflationToXml();
-		readXml();
+//		readXml();
 	}
 
 	public static void selectsCheck(String nameOfProduct, String startDate, String endDate) throws SQLException, ClassNotFoundException {

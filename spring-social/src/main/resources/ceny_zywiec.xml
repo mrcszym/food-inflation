@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<products>
+    <product id="1">
+        <name>Auchan Piwo Żywiec puszka 0,5 l</name>
+        <date>2022-05</date>
+        <price currency="PLN">2.98</price>
+    </product>
+    <product id="2">
+        <name>Biedronka Piwo Żywiec puszka 0,5 l</name>
+        <date>2022-05</date>
+        <price currency="PLN">3,19</price>
+    </product>
+    <product id="3">
+        <name>Kaufland Piwo Żywiec puszka 0,5 l</name>
+        <date>2022-05</date>
+        <price currency="PLN">2,75</price>
+    </product>
+    <product id="4">
+        <name>Lidl Piwo Żywiec puszka 0,5 l</name>
+        <date>2022-05</date>
+        <price currency="PLN">3,39</price>
+    </product>
+    <product id="5">
+        <name>E.Leclerc Piwo Żywiec puszka 0,5 l</name>
+        <date>2022-05</date>
+        <price currency="PLN">3,99</price>
+    </product>
+    <product id="6">
+        <name>Carrefour Piwo Żywiec puszka 0,5 l</name>
+        <date>2022-05</date>
+        <price currency="PLN">4,50</price>
+    </product>
+    <product id="7">
+        <name>Żabka Piwo Żywiec puszka 0,5 l</name>
+        <date>2022-05</date>
+        <price currency="PLN">3,99</price>
+    </product>
+    <product id="8">
+        <name>Lewiatan Piwo Żywiec puszka 0,5 l</name>
+        <date>2022-05</date>
+        <price currency="PLN">3,99</price>
+    </product>
+    <product id="9">
+        <name>Stokrotka Piwo Żywiec puszka 0,5 l</name>
+        <date>2022-05</date>
+        <price currency="PLN">3,29</price>
+    </product>
+    <product id="10">
+        <name>Aldi Piwo Żywiec puszka 0,5 l</name>
+        <date>2022-05</date>
+        <price currency="PLN">3,19</price>
+    </product>
+</products>
