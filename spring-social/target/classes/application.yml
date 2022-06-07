@@ -1,8 +1,8 @@
 spring:
     datasource:
-        url: jdbc:mysql://localhost:3306/foodinfdb
+        url: jdbc:mysql://localhost:3305/foodinfdb
         username: root
-        password:
+        password: SpaceMysql1!
 
     jpa:
         show-sql: true
