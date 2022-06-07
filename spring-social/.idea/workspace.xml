@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74728754-96c6-4722-8e8c-87873738fc66" name="Changes" comment="added: XML read from file (in resources)">
+    <list default="true" id="74728754-96c6-4722-8e8c-87873738fc66" name="Changes" comment="update: XML read from file (in resources)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springsocial/controller/ReadJson.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springsocial/SpringSocialApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springsocial/SpringSocialApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springsocial/controller/JsonDownload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springsocial/controller/DownloadJson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springsocial/controller/XmlDownload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springsocial/controller/DownloadXml.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springsocial/SpringSocialApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springsocial/SpringSocialApplication.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +79,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Szymon\Desktop\food-inflation\spring-social" />
       <recent name="C:\Users\Szymon\Desktop\food-inflation\spring-social\src\main\resources" />
       <recent name="C:\Users\Szymon\Desktop\food-inflation\spring-social\src\main\java\com\example\springsocial\controller" />
     </key>
@@ -100,7 +106,8 @@
       <workItem from="1654540783654" duration="3494000" />
       <workItem from="1654582368611" duration="4843000" />
       <workItem from="1654599579892" duration="6904000" />
-      <workItem from="1654608530414" duration="892000" />
+      <workItem from="1654608530414" duration="4591000" />
+      <workItem from="1654613938964" duration="242000" />
     </task>
     <task id="LOCAL-00001" summary="added: JSON download from db for products or inflation table">
       <created>1654591544464</created>
@@ -123,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654607331735</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update: XML read from file (in resources)">
+      <created>1654609468970</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1654609468970</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,7 +159,8 @@
     <MESSAGE value="added: JSON download from db for products or inflation table" />
     <MESSAGE value="added: XML download from db for products or inflation table" />
     <MESSAGE value="added: XML read from file (in resources)" />
-    <option name="LAST_COMMIT_MESSAGE" value="added: XML read from file (in resources)" />
+    <MESSAGE value="update: XML read from file (in resources)" />
+    <option name="LAST_COMMIT_MESSAGE" value="update: XML read from file (in resources)" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
