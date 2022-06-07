@@ -48,7 +48,7 @@ public class JsonDownload {
 
         while(rs.next()) {
             JSONObject record = new JSONObject();
-            //Inserting key-value pairs into the json object
+            //Inserting key-value pairs into the json object:
             record.put("ID", rs.getInt("id"));
             record.put("Year-month", rs.getString("month_name"));
             record.put("Value", rs.getString("InfValue"));

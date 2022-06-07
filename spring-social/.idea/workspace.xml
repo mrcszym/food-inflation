@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74728754-96c6-4722-8e8c-87873738fc66" name="Changes" comment="added: JSON download from db for products or inflation table">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springsocial/controller/XmlDownload.java" afterDir="false" />
+    <list default="true" id="74728754-96c6-4722-8e8c-87873738fc66" name="Changes" comment="added: XML download from db for products or inflation table">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springsocial/controller/ReadXml.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springsocial/SpringSocialApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springsocial/SpringSocialApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springsocial/controller/JsonDownload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springsocial/controller/JsonDownload.java" afterDir="false" />
@@ -76,6 +76,12 @@
     &quot;spring.configuration.checksum&quot;: &quot;d880839882ecb65a3cebb0be7f8962c5&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Szymon\Desktop\food-inflation\spring-social\src\main\resources" />
+      <recent name="C:\Users\Szymon\Desktop\food-inflation\spring-social\src\main\java\com\example\springsocial\controller" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="SpringSocialApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-social" />
@@ -97,7 +103,7 @@
       <workItem from="1654248599638" duration="2093000" />
       <workItem from="1654540783654" duration="3494000" />
       <workItem from="1654582368611" duration="4843000" />
-      <workItem from="1654599579892" duration="3851000" />
+      <workItem from="1654599579892" duration="6904000" />
     </task>
     <task id="LOCAL-00001" summary="added: JSON download from db for products or inflation table">
       <created>1654591544464</created>
@@ -106,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654591544464</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added: XML download from db for products or inflation table">
+      <created>1654603989485</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654603989485</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,12 +139,13 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added: selects for date and price from products table and date and value for inflation table (returns are hashmaps)" />
     <MESSAGE value="added: JSON download from db for products or inflation table" />
-    <option name="LAST_COMMIT_MESSAGE" value="added: JSON download from db for products or inflation table" />
+    <MESSAGE value="added: XML download from db for products or inflation table" />
+    <option name="LAST_COMMIT_MESSAGE" value="added: XML download from db for products or inflation table" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
       <configuration name="SpringBootApplicationConfigurationType">
-        <watch expression="betweenStatement" />
+        <watch expression="betweenStatement" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
