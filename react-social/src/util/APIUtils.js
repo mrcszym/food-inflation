@@ -50,9 +50,16 @@ export async function signup(signupRequest) {
     });
 }
 
-export async function showProduct() {
+export async function showProduct(productName) {
     return await request({
-        url: API_BASE_URL + "/product/1",
+        url: API_BASE_URL + "/product/name/" + productName,
+        method: 'GET'
+    })
+}
+
+export async function showInflation(monthName) {
+    return await request({
+        url: API_BASE_URL + "/inflation/" + monthName,
         method: 'GET'
     })
 }

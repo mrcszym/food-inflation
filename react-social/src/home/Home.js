@@ -1,30 +1,8 @@
 import React, { Component } from 'react';
-<<<<<<< Updated upstream
-import { showProduct } from '../util/APIUtils';
-=======
->>>>>>> Stashed changes
 import './Home.css';
 import Formularz from '../components/Formularz'
 import Tabela from '../components/Tabela';
 import { showProduct } from '../util/APIUtils';
-
-<<<<<<< Updated upstream
-class Home extends Component {
-        state={
-            product: {
-                id: 2137,
-                name: "",
-                month: "",
-                price: 21.37
-            }
-        };
-
-    getData = async () => {
-        const dane = await showProduct();
-        this.setState({product: dane})
-        console.log(dane)
-    }
-=======
 
 class Home extends Component {
     constructor() {
@@ -57,29 +35,15 @@ class Home extends Component {
         //console.log(noweDane.product)
     }
 
->>>>>>> Stashed changes
     render() {
         return (
             <div className="home-container">
                 <div className="container">
-<<<<<<< Updated upstream
-                    {/* <div className="graf-bg-container">
-                        <div className="graf-layout">
-                        </div>
-                    </div> */}
-                    <h1 className="home-title">Go on and compare average food products prices to inflation!</h1>
-                    <div>
-                        <button onClick={this.getData}>Klik</button>
-                        <span>{this.state.product.name}</span>
-                    </div>
-=======
                     <h1>Current inflation in Poland is 13.9%</h1>
                     <Formularz addDane={this.handleAddDane.bind(this)} />
                     {console.log(this.state.productsList)}
                     <Tabela productsList={this.state.productsList} />
->>>>>>> Stashed changes
                 </div>
-                <Test/>
             </div>
         );
     }

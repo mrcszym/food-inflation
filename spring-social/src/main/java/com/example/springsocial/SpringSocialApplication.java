@@ -5,11 +5,41 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 
+import java.sql.SQLException;
+
+import static com.example.springsocial.controller.JsonDownload.getInflationToJson;
+import static com.example.springsocial.controller.JsonDownload.getProductsToJson;
+import static com.example.springsocial.controller.InflationController.getInflationDateValueFromDb;
+import static com.example.springsocial.controller.ProductController.getProductsDatePriceFromDb;
+import static com.example.springsocial.controller.ReadXml.readXml;
+import static com.example.springsocial.controller.XmlDownload.getInflationToXml;
+import static com.example.springsocial.controller.XmlDownload.getProductsToXml;
+
 @SpringBootApplication
 @EnableConfigurationProperties(AppProperties.class)
 public class SpringSocialApplication {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 		SpringApplication.run(SpringSocialApplication.class, args);
+//
+//		String nameOfProduct = "chleb 1000g";
+//		String startDate = "2021-05";
+//		String endDate = "2022-05";
+
+//		getProductsToJson();
+//		getInflationToJson();
+
+//		selectsCheck(nameOfProduct, startDate, endDate);
+
+//		getProductsToXml();
+//		getInflationToXml();
+//		readXml();
+	}
+
+	public static void selectsCheck(String nameOfProduct, String startDate, String endDate) throws SQLException, ClassNotFoundException {
+		System.out.println("\ngetProductsDatePriceFromDb:");
+		System.out.println(getProductsDatePriceFromDb(nameOfProduct, startDate, endDate));
+		System.out.println("\ngetInflationDateValueFromDb");
+		System.out.println(getInflationDateValueFromDb(startDate, endDate));
 	}
 }
