@@ -1,0 +1,63 @@
+{
+    "Products data": [{
+            "Shop": "Auchan",
+            "Product name": "Parówki Berlinki opak. 250g",
+            "ID": 1,
+            "Average price": "4.31"
+        },
+        {
+            "Shop": "Biedronka",
+            "Product name": "Parówki Berlinki opak. 250g",
+            "ID": 2,
+            "Average price": "4.99"
+        },
+        {
+            "Shop": "Kaufland",
+            "Product name": "Parówki Berlinki opak. 250g",
+            "ID": 3,
+            "Average price": "4.37"
+        },
+        {
+            "Shop": "Lidl",
+            "Product name": "Parówki Berlinki opak. 250g",
+            "ID": 4,
+            "Average price": "4.99"
+        },
+        {
+            "Shop": "Aldi",
+            "Product name": "Parówki Berlinki opak. 250g",
+            "ID": 5,
+            "Average price": "4.59"
+        },
+        {
+            "Shop": "E.Leclerc",
+            "Product name": "Parówki Berlinki opak. 250g",
+            "ID": 6,
+            "Average price": "4.37"
+        },
+        {
+            "Shop": "Stokrotka",
+            "Product name": "Parówki Berlinki opak. 250g",
+            "ID": 7,
+            "Average price": "4.79"
+        },
+        {
+            "Shop": "Lewiatan",
+            "Product name": "Parówki Berlinki opak. 250g",
+            "ID": 8,
+            "Average price": "5.49"
+        },
+        {
+            "Shop": "Carrefour",
+            "Product name": "Parówki Berlinki opak. 250g",
+            "ID": 9,
+            "Average price": "5.99"
+        },
+        {
+            "Shop": "Żabka",
+            "Product name": "Parówki Berlinki opak. 250g",
+            "ID": 10,
+            "Average price": "5.50"
+        }
+    ]
+}
