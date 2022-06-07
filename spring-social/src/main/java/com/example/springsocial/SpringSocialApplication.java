@@ -11,6 +11,8 @@ import static com.example.springsocial.controller.JsonDownload.getInflationToJso
 import static com.example.springsocial.controller.JsonDownload.getProductsToJson;
 import static com.example.springsocial.controller.InflationController.getInflationDateValueFromDb;
 import static com.example.springsocial.controller.ProductController.getProductsDatePriceFromDb;
+import static com.example.springsocial.controller.XmlDownload.getInflationToXml;
+import static com.example.springsocial.controller.XmlDownload.getProductsToXml;
 
 @SpringBootApplication
 @EnableConfigurationProperties(AppProperties.class)
@@ -27,6 +29,9 @@ public class SpringSocialApplication {
 //		getInflationToJson();
 
 //		selectsCheck(nameOfProduct, startDate, endDate);
+
+//		getProductsToXml();
+//		getInflationToXml();
 	}
 
 	public static void selectsCheck(String nameOfProduct, String startDate, String endDate) throws SQLException, ClassNotFoundException {
