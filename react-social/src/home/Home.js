@@ -1,68 +1,51 @@
 import React, { Component } from 'react';
-import { showInflation, showProduct } from '../util/APIUtils';
 import './Home.css';
-import Test from './test';
+import Formularz from '../components/Formularz'
+import Tabela from '../components/Tabela';
+import { showProduct } from '../util/APIUtils';
 
 class Home extends Component {
-    state = {
-        product: {
-            id: 2137,
-            name: "",
-            month: "",
-            price: 21.37
-        },
-
-        inflation: {
-            id: 2137,
-            month: "",
-            value: ""
+    constructor() {
+        super();
+        this.state = {
+            dane: "",
+            productsList: [
+                { id: 1, month: "2022-01", name: "product", price: 4.20 },
+                { id: 2, month: "2022-02", name: "product", price: 4.21 },
+                { id: 3, month: "2022-03", name: "product", price: 4.22 },
+                { id: 4, month: "2022-04", name: "product", price: 4.23 }
+            ],
+            inflationList: [
+                { id: 1, month: "2022-01", inflValue: 21.37 },
+                { id: 2, month: "2022-02", inflValue: 21.30 },
+                { id: 3, month: "2022-03", inflValue: 21.31 },
+                { id: 4, month: "2022-04", inflValue: 21.32 }
+            ]
         }
-    };
-
-    getData = async (productValue) => {
-        const dane = await showProduct(productValue);
-        this.setState({ product: dane })
-        console.log(dane)
     }
 
-    getInflation = async (monthValue) => {
-        const daneInfl = await showInflation(monthValue);
-        this.setState({ inflation: daneInfl })
-        console.log(daneInfl)
+    async getData(productValue) {
+        const daneProduktu = await showProduct(productValue);
+        this.setState({ productsList: daneProduktu })
     }
 
-    handleChange = selectedOption => {
-        this.setState({
-            selectedOption
-        },
-            console.log('Option selected:', this.state.selectedOption))
+    handleAddDane(noweDane) {
+        this.setState({ dane: noweDane })
+        this.getData(noweDane.product)
+        //console.log(noweDane.product)
     }
 
     render() {
         return (
             <div className="home-container">
                 <div className="container">
-                    {/* <div className="graf-bg-container">
-                        <div className="graf-layout">
-                        </div>
-                    </div> 
-                    <h1 className="home-title">Go on and compare average food products prices to inflation!</h1>
-                    <div>
-                        <button onClick={this.getData}>Klik</button>
-                        <span><br/>{this.state.product.name}</span>
-                        <button onClick={() => this.getInflation('2022-04')}>Click here to see current inflation</button>
-                        <span><br/>{this.state.inflation.value}</span>
-                    </div>
-                    */}
                     <h1>Current inflation in Poland is 13.9%</h1>
-                    <div>
-                        <label>Wybierz produkt, który chcesz sprawdzić:</label><br/>
-                        <button onClick={() => this.getData("chleb 1000g")}>chleb</button>
-                        <button onClick={() => this.getData("bulka kajzerka 50g")}>kajzerka</button>
-                    </div>
+                    <Formularz addDane={this.handleAddDane.bind(this)} />
+                    {console.log(this.state.productsList)}
+                    <Tabela productsList={this.state.productsList} />
                 </div>
             </div>
-        )
+        );
     }
 }
 
