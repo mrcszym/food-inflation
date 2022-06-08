@@ -31,7 +31,7 @@ public class SpringSocialApplication {
 //		getProductsToXml();
 //		getInflationToXml();
 
-//		readXml();
+		readXml();
 		readJson();
 	}
 
