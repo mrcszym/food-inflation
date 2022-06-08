@@ -29,32 +29,38 @@ public class ProductController {
         return productService.getProductPricesByName(name);
     }
 
-    public static Map<String, String> getProductsDatePriceFromDb(String nameOfProduct, String startDate, String endDate) throws SQLException, ClassNotFoundException {
-        Map<String, String> monthPriceMap = new HashMap<>();
+    public static Product[] getProductsDatePriceFromDb(String nameOfProduct, String startDate, String endDate) throws SQLException, ClassNotFoundException {
 
-        Class.forName("com.mysql.jdbc.Driver");
+        Class.forName("com.mysql.cj.jdbc.Driver");
         Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3305/foodinfdb", "root", "SpaceMysql1!");
         Statement stmt = conn.createStatement();
 
         int returnedProductId1 = getSelectDate(nameOfProduct, startDate, conn);
         int returnedProductId2 = getSelectDate(nameOfProduct, endDate, conn);
 
-        String finalQuery = "SELECT month_name, price FROM products WHERE id BETWEEN ? AND ?";
-        return makeBetweenStatement(monthPriceMap, conn, returnedProductId2, returnedProductId1, finalQuery);
+        return makeBetweenStatement(conn, returnedProductId2, returnedProductId1);
     }
 
-    static Map<String, String> makeBetweenStatement(Map<String, String> monthPriceMap, Connection conn, int returnedProductId1, int returnedProductId2, String finalQuery) throws SQLException {
+    static Product[] makeBetweenStatement(Connection conn, int returnedProductId1, int returnedProductId2) throws SQLException {
+
+        String finalQuery = "SELECT id, product_name, month_name, price FROM products WHERE id BETWEEN ? AND ? ORDER BY id ASC";
         PreparedStatement betweenStatement = conn.prepareStatement(finalQuery);
         betweenStatement.setInt(1, returnedProductId1);
         betweenStatement.setInt(2, returnedProductId2);
-
         ResultSet betweenResult = betweenStatement.executeQuery();
 
+        Product[] productsArray = new Product[returnedProductId2-returnedProductId1 + 1];
+        int counter = 0;
+
         while (betweenResult.next()) {
-            monthPriceMap.put(betweenResult.getString("month_name"), betweenResult.getString("price"));
+           productsArray[counter] = new Product(betweenResult.getLong("id"),
+                   betweenResult.getString("product_name"),
+                   betweenResult.getString("month_name"),
+                   betweenResult.getDouble("price"));
+                   counter ++;
         }
 
-        return monthPriceMap;
+        return productsArray;
     }
 
     private static int getSelectDate(String nameOfProduct, String givenDate, Connection conn) throws SQLException {

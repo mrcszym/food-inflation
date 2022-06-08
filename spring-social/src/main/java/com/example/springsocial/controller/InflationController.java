@@ -10,8 +10,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.sql.*;
-import java.util.HashMap;
-import java.util.Map;
 
 @RestController
 public class InflationController {
@@ -26,32 +24,37 @@ public class InflationController {
         return inflationRepository.findInflationByMonth(month);
     }
 
-    public static Map<String, String> getInflationDateValueFromDb(String startDate, String endDate) throws ClassNotFoundException, SQLException {
-        Map<String, String> monthValueMap = new HashMap<>();
+    public static Inflation[] getInflationDateValueFromDb(String startDate, String endDate) throws ClassNotFoundException, SQLException {
 
-        Class.forName("com.mysql.jdbc.Driver");
+        Class.forName("com.mysql.cj.jdbc.Driver");
         Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3305/foodinfdb", "root", "SpaceMysql1!");
         Statement stmt = conn.createStatement();
 
         int returnedInflationInt1 = getSelectDate(startDate, conn);
         int returnedInflationInt2 = getSelectDate(endDate, conn);
 
-        String finalQuery = "SELECT month_name, InfValue FROM inflation WHERE id BETWEEN ? AND ?";
-        return makeBetweenStatement(monthValueMap, conn, returnedInflationInt1, returnedInflationInt2, finalQuery);
+        return makeBetweenStatement(conn, returnedInflationInt2, returnedInflationInt1);
     }
 
-    static Map<String, String> makeBetweenStatement(Map<String, String> monthValueMap, Connection conn, int returnedInflationInt1, int returnedInflationInt2, String finalQuery) throws SQLException {
+    static Inflation[] makeBetweenStatement(Connection conn, int returnedInflationInt1, int returnedInflationInt2) throws SQLException {
+
+        String finalQuery = "SELECT id, month_name, inf_value FROM inflation WHERE id BETWEEN ? AND ? ORDER BY id ASC";
         PreparedStatement betweenStatement = conn.prepareStatement(finalQuery);
         betweenStatement.setInt(1, returnedInflationInt1);
         betweenStatement.setInt(2, returnedInflationInt2);
-
         ResultSet betweenResult = betweenStatement.executeQuery();
 
+        Inflation[] inflationArray = new Inflation[returnedInflationInt2-returnedInflationInt1 + 1];
+        int counter = 0;
+
         while (betweenResult.next()) {
-            monthValueMap.put(betweenResult.getString("month_name"), betweenResult.getString("InfValue"));
+            inflationArray[counter] = new Inflation(betweenResult.getLong("id"),
+                   betweenResult.getString("month_name"),
+                    betweenResult.getString("inf_value"));
+            counter++;
         }
 
-        return monthValueMap;
+        return inflationArray;
     }
 
     private static int getSelectDate(String givenDate, Connection conn) throws SQLException {
