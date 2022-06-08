@@ -32,7 +32,7 @@ public class DownloadXml {
             return rs;
         }
 
-        rs = stmt.executeQuery("SELECT id, month_name, InfValue FROM inflation");
+        rs = stmt.executeQuery("SELECT id, month_name, inf_value FROM inflation");
         return rs;
     }
 
@@ -96,10 +96,10 @@ public class DownloadXml {
             date.setTextContent(rs.getString("month_name"));
             inflations.appendChild(date);
 
-            Element InfValue = doc.createElement("InfValue");
-            InfValue.setAttribute("currency", "%");
-            InfValue.setTextContent(rs.getString("InfValue"));
-            inflations.appendChild(InfValue);
+            Element inf_value = doc.createElement("inf_value");
+            inf_value.setAttribute("currency", "%");
+            inf_value.setTextContent(rs.getString("inf_value"));
+            inflations.appendChild(inf_value);
 
             try (FileOutputStream output =
                          new FileOutputStream("C:/Users/Szymon/Desktop/food-inflation/spring-social/inflation.xml")) {

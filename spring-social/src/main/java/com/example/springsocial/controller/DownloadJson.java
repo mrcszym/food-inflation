@@ -47,7 +47,7 @@ public class DownloadJson {
             //Inserting key-value pairs into the json object:
             record.put("ID", rs.getInt("id"));
             record.put("Year-month", rs.getString("month_name"));
-            record.put("Value", rs.getString("InfValue"));
+            record.put("Value", rs.getString("inf_value"));
             array.add(record);
         }
         jsonObject.put("Products data", array);
