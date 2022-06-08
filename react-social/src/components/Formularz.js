@@ -62,7 +62,6 @@ class Formularz extends Component {
         });
         return (
             <div>
-                <h3>Tabelka</h3>
                 <form onSubmit={this.handleSubmit.bind(this)}>
                     <div>
                         <label>Wybierz produkt:</label>
@@ -82,7 +81,7 @@ class Formularz extends Component {
                             {dateEndOptions}
                         </select>
                     </div>
-                    <input type="submit" value="Submit" />
+                    <input type="submit" value="Pokaż wykres!" />
                 </form>
             </div>
         )

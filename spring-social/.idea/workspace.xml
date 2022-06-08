@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="74728754-96c6-4722-8e8c-87873738fc66" name="Changes" comment="added: XML read from file (in resources)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+    <list default="true" id="74728754-96c6-4722-8e8c-87873738fc66" name="Changes" comment=".">
+      <change beforePath="$PROJECT_DIR$/../react-social/src/util/APIUtils.js" beforeDir="false" afterPath="$PROJECT_DIR$/../react-social/src/util/APIUtils.js" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +64,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< Updated upstream
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
@@ -70,6 +76,21 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;d880839882ecb65a3cebb0be7f8962c5&quot;
+=======
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "extract.method.default.visibility": "private",
+    "last_opened_file_path": "C:/Users/frede/Documents/GitHub/food-inflation",
+    "spring.configuration.checksum": "d880839882ecb65a3cebb0be7f8962c5",
+    "sql.rename.search.for.storage.occurrences": "true"
+>>>>>>> Stashed changes
   }
 }</component>
   <component name="RecentsManager">
@@ -100,7 +121,15 @@
       <workItem from="1654540783654" duration="3494000" />
       <workItem from="1654582368611" duration="4843000" />
       <workItem from="1654599579892" duration="6904000" />
+<<<<<<< Updated upstream
       <workItem from="1654608530414" duration="892000" />
+=======
+      <workItem from="1654608530414" duration="4591000" />
+      <workItem from="1654613938964" duration="242000" />
+      <workItem from="1654685767819" duration="1899000" />
+      <workItem from="1654691402998" duration="5421000" />
+      <workItem from="1654698670387" duration="55000" />
+>>>>>>> Stashed changes
     </task>
     <task id="LOCAL-00001" summary="added: JSON download from db for products or inflation table">
       <created>1654591544464</created>

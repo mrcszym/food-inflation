@@ -29,11 +29,21 @@ public class ProductController {
         return productService.getProductPricesByName(name);
     }
 
+<<<<<<< Updated upstream
     public static Map<String, String> getProductsDatePriceFromDb(String nameOfProduct, String startDate, String endDate) throws SQLException, ClassNotFoundException {
         Map<String, String> monthPriceMap = new HashMap<>();
 
         Class.forName("com.mysql.jdbc.Driver");
         Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3305/foodinfdb", "root", "SpaceMysql1!");
+=======
+    @GetMapping("/product/createTable")
+    @PreAuthorize("hasRole('USER')")
+    @ResponseBody
+    public static Product[] getProductsDatePriceFromDb(@RequestParam("name") String nameOfProduct, @RequestParam("s") String startDate, @RequestParam("e") String endDate) throws SQLException, ClassNotFoundException {
+
+        Class.forName("com.mysql.cj.jdbc.Driver");
+        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/foodinfdb", "root", "");
+>>>>>>> Stashed changes
         Statement stmt = conn.createStatement();
 
         int returnedProductId1 = getSelectDate(nameOfProduct, startDate, conn);

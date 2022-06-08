@@ -50,16 +50,17 @@ export async function signup(signupRequest) {
     });
 }
 
-export async function showProduct(productName) {
+export async function getPriceWithDate(nameProduct, sDate, eDate) {
     return await request({
-        url: API_BASE_URL + "/product/name/" + productName,
+        url: API_BASE_URL + "/product/createTable?name=" + nameProduct + "&s=" + sDate + "&e=" + eDate,
         method: 'GET'
     })
 }
 
-export async function showInflation(monthName) {
+export async function getInflation(startDate, endDate) {
     return await request({
-        url: API_BASE_URL + "/inflation/" + monthName,
+        url: API_BASE_URL + "/inflation/createTable?&s=" + startDate + "&e=" + endDate,
         method: 'GET'
     })
 }
+
