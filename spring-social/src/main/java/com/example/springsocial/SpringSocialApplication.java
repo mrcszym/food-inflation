@@ -8,6 +8,8 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 import java.sql.SQLException;
 import java.util.Arrays;
 
+import static com.example.springsocial.controller.DownloadXml.getInflationToXml;
+import static com.example.springsocial.controller.DownloadXml.getProductsToXml;
 import static com.example.springsocial.controller.InflationController.getInflationDateValueFromDb;
 import static com.example.springsocial.controller.ProductController.getProductsDatePriceFromDb;
 import static com.example.springsocial.controller.ReadJson.readJson;
@@ -20,14 +22,14 @@ public class SpringSocialApplication {
 	public static void main(String[] args) throws Exception {
 		SpringApplication.run(SpringSocialApplication.class, args);
 
-		String nameOfProduct = "chleb 1000g";
+		String nameOfProduct = "chleb_1000g";
 		String startDate = "2021-05";
 		String endDate = "2022-05";
 
 //		getProductsToJson();
 //		getInflationToJson();
 
-		selectsCheck(nameOfProduct, startDate, endDate);
+//		selectsCheck(nameOfProduct, startDate, endDate);
 
 //		getProductsToXml();
 //		getInflationToXml();

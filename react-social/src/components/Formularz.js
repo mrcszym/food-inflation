@@ -3,8 +3,11 @@ import { Component } from 'react';
 class Formularz extends Component {
 
     static defaultProps = {
-        products: [{name: 'Chleb', trueName: 'chleb 1000g'}, 
-        {name: 'Bułka', trueName: 'bulka kajzerka 50g'}],
+        products: [{name: 'Chleb', trueName: 'chleb_1000g'}, 
+        {name: 'Bułka kajzerka', trueName: 'bulka kajzerka 50g'},
+        {name: 'Piwo żywiec puszka', trueName: 'piwo zywiec puszka'},
+        {name: 'Parówki berlinki opak. 250g', trueName: 'parowki berlinki opak. 250g'}
+    ],
         dateStart: ['2015-01', '2015-02', '2015-03', '2015-04', '2015-05', '2015-06', '2015-07',
             '2015-08', '2015-09', '2015-10', '2015-11', '2015-12',
             '2016-01', '2016-02', '2016-03', '2016-04', '2016-05', '2016-06', '2016-07',
@@ -62,7 +65,6 @@ class Formularz extends Component {
         });
         return (
             <div>
-                <h3>Tabelka</h3>
                 <form onSubmit={this.handleSubmit.bind(this)}>
                     <div>
                         <label>Wybierz produkt:</label>
@@ -82,7 +84,7 @@ class Formularz extends Component {
                             {dateEndOptions}
                         </select>
                     </div>
-                    <input type="submit" value="Submit" />
+                    <input type="submit" value="Pokaż wykres!" />
                 </form>
             </div>
         )

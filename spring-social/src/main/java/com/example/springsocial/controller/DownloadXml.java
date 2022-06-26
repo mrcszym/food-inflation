@@ -23,7 +23,7 @@ public class DownloadXml {
 
     static ResultSet getResultSet(String type) throws ClassNotFoundException, SQLException {
         Class.forName("com.mysql.jdbc.Driver");
-        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3305/foodinfdb", "root", "SpaceMysql1!");
+        Connection conn = DriverManager.getConnection("jdbc:mysql://mysqldb:3306/foodinfdb", "root", "SpaceMysql1!");
         Statement stmt = conn.createStatement();
         ResultSet rs;
 

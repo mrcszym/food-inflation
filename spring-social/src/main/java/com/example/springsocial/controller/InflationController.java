@@ -4,10 +4,7 @@ import com.example.springsocial.model.Inflation;
 import com.example.springsocial.repository.InflationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.sql.*;
 
@@ -24,10 +21,13 @@ public class InflationController {
         return inflationRepository.findInflationByMonth(month);
     }
 
-    public static Inflation[] getInflationDateValueFromDb(String startDate, String endDate) throws ClassNotFoundException, SQLException {
+    @GetMapping("/inflation/createTable")
+    @PreAuthorize("hasRole('USER')")
+    @ResponseBody
+    public static Inflation[] getInflationDateValueFromDb(@RequestParam("s") String startDate, @RequestParam("e") String endDate) throws ClassNotFoundException, SQLException {
 
-        Class.forName("com.mysql.cj.jdbc.Driver");
-        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3305/foodinfdb", "root", "SpaceMysql1!");
+        Class.forName("com.mysql.jdbc.Driver");
+        Connection conn = DriverManager.getConnection("jdbc:mysql://mysqldb:3306/foodinfdb", "root", "SpaceMysql1!");
         Statement stmt = conn.createStatement();
 
         int returnedInflationInt1 = getSelectDate(startDate, conn);

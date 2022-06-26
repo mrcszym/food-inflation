@@ -1,29 +1,26 @@
 import { Component } from "react";
+import './Tabela.css'
 
 class Tabela extends Component {
     render() {
-        let tableHeaders = this.props.productsList.map(header => {
+        let nazwa = this.props.dane.product;
+        let renderTable = this.props.finalArray.map( item => {
             return (
-                <th>{header.month}</th>
+                <tr>
+                    <td>{item.month}</td>
+                    <td>{item.price}zł</td>
+                    <td>{item.infl}%</td>
+                </tr>
             )
         });
-
-        let tableValues = this.props.productsList.map(item => {
-            return (
-                <td>{item.price} zł</td>
-            )
-        });
-
         return (
             <table>
                 <tr>
-                    <th>Month</th>
-                    {tableHeaders}
+                    <th>Miesiąc</th>
+                    <th>{nazwa}</th>
+                    <th>Inflacja</th>
                 </tr>
-                <tr>
-                    <td>{this.props.productsList[0].name}</td>
-                    {tableValues}
-                </tr>
+                {renderTable}
             </table>
         )
     }

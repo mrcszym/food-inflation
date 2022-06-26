@@ -37,13 +37,13 @@ class Login extends Component {
         return (
             <div className="login-container">
                 <div className="login-content">
-                    <h1 className="login-title">Login to FootToInflation</h1>
+                    <h1 className="login-title">Zaloguj się do serwisu</h1>
                     <SocialLogin />
                     <div className="or-separator">
-                        <span className="or-text">OR</span>
+                        <span className="or-text">LUB</span>
                     </div>
                     <LoginForm {...this.props} />
-                    <span className="signup-link">New user? <Link to="/signup">Sign up!</Link></span>
+                    <span className="signup-link">Jesteś tu nowy? <Link to="/signup">Zarejestruj się!</Link></span>
                 </div>
             </div>
         );
@@ -55,11 +55,11 @@ class SocialLogin extends Component {
         return (
             <div className="social-login">
                 <a className="btn btn-block social-btn google" href={GOOGLE_AUTH_URL}>
-                    <img src={googleLogo} alt="Google" /> Log in with Google</a>
+                    <img src={googleLogo} alt="Google" /> Zaloguj się z Google</a>
                 <a className="btn btn-block social-btn facebook" href={FACEBOOK_AUTH_URL}>
-                    <img src={fbLogo} alt="Facebook" /> Log in with Facebook</a>
+                    <img src={fbLogo} alt="Facebook" /> Zaloguj się z Facebook</a>
                 <a className="btn btn-block social-btn github" href={GITHUB_AUTH_URL}>
-                    <img src={githubLogo} alt="Github" /> Log in with Github</a>
+                    <img src={githubLogo} alt="Github" /> Zaloguj się z Github</a>
             </div>
         );
     }
