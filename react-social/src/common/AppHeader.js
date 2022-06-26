@@ -15,19 +15,19 @@ class AppHeader extends Component {
                                 { this.props.authenticated ? (
                                     <ul>
                                         <li>
-                                            <NavLink to="/profile">Your profile</NavLink>
+                                            <NavLink to="/profile">Profil</NavLink>
                                         </li>
                                         <li>
-                                            <a onClick={this.props.onLogout}>Logout</a>
+                                            <a onClick={this.props.onLogout}>Wyloguj</a>
                                         </li>
                                     </ul>
                                 ): (
                                     <ul>
                                         <li>
-                                            <NavLink to="/login">Login</NavLink>        
+                                            <NavLink to="/login">Zaloguj!</NavLink>        
                                         </li>
                                         <li>
-                                            <NavLink to="/signup">Signup</NavLink>        
+                                            <NavLink to="/signup">Zarejestruj się!</NavLink>        
                                         </li>
                                     </ul>
                                 )}

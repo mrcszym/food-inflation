@@ -1,7 +1,7 @@
 package com.example.springsocial.security.oauth2;
 
 import com.example.springsocial.config.AppProperties;
-import com.example.springsocial.exception.BadRequestException;
+import com.example.springsocial.controller.exception.BadRequestException;
 import com.example.springsocial.security.TokenProvider;
 import com.example.springsocial.util.CookieUtils;
 import org.springframework.beans.factory.annotation.Autowired;

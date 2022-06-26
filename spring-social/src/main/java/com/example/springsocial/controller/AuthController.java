@@ -1,6 +1,6 @@
 package com.example.springsocial.controller;
 
-import com.example.springsocial.exception.BadRequestException;
+import com.example.springsocial.controller.exception.BadRequestException;
 import com.example.springsocial.model.AuthProvider;
 import com.example.springsocial.model.User;
 import com.example.springsocial.payload.ApiResponse;

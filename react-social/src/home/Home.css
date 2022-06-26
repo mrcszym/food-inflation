@@ -6,11 +6,78 @@
     padding-top: 60px;
 }
 
+.button-85 {
+  padding: 0.6em 2em;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-85:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing-button-85 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowing-button-85 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.button-85:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #222;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
 .home-title {
     font-size: 25px;
     font-weight: 400;
-    color: rgba(0,0,0,0.70);
-    margin-top: 50px; 
+    color: rgba(0, 0, 0, 0.70);
+    margin-top: 50px;
 }
 
 .graf-bg-container {
@@ -32,7 +99,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%) rotateY(1000deg) rotateX(1000deg) rotate(0deg);
+    transform: translate(-50%, -50%) rotateY(1000deg) rotateX(1000deg) rotate(0deg);
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -44,7 +111,7 @@
 @keyframes scaleOne {
     to {
         border-radius: 50%;
-        transform: translate(-50%,-50%) rotateY(180deg) rotateX(90deg) rotate(1000deg);
+        transform: translate(-50%, -50%) rotateY(180deg) rotateX(90deg) rotate(1000deg);
         opacity: 0
     }
 }
@@ -53,7 +120,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%) rotateX(135deg) rotateY(135deg) rotate(0deg);
+    transform: translate(-50%, -50%) rotateX(135deg) rotateY(135deg) rotate(0deg);
     width: 310px;
     height: 310px;
     border-radius: 50%;
@@ -66,7 +133,7 @@
 @keyframes scaleTwo {
     to {
         border-radius: 50%;
-        transform: translate(-50%,-50%) rotateX(135deg) rotateY(135deg) rotate(1turn);
+        transform: translate(-50%, -50%) rotateX(135deg) rotateY(135deg) rotate(1turn);
         opacity: 0
     }
 }
@@ -75,7 +142,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%) rotateX(45deg) rotateY(45deg) rotate(0deg);
+    transform: translate(-50%, -50%) rotateX(45deg) rotateY(45deg) rotate(0deg);
     width: 310px;
     height: 310px;
     border-radius: 50%;
@@ -88,7 +155,7 @@
 @keyframes scaleThree {
     to {
         border-radius: 50%;
-        transform: translate(-50%,-50%) rotateX(45deg) rotateY(45deg) rotate(1turn);
+        transform: translate(-50%, -50%) rotateX(45deg) rotateY(45deg) rotate(1turn);
         opacity: 0
     }
 }
@@ -97,7 +164,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%) rotateX(45deg) rotate(0deg);
+    transform: translate(-50%, -50%) rotateX(45deg) rotate(0deg);
     width: 310px;
     height: 310px;
     border-radius: 50%;
@@ -110,7 +177,7 @@
 @keyframes scaleFour {
     to {
         border-radius: 50%;
-        transform: translate(-50%,-50%) rotateX(45deg) rotate(1turn);
+        transform: translate(-50%, -50%) rotateX(45deg) rotate(1turn);
         opacity: 0
     }
 }
@@ -119,7 +186,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%) rotateX(135deg) rotate(0deg);
+    transform: translate(-50%, -50%) rotateX(135deg) rotate(0deg);
     width: 310px;
     height: 310px;
     border-radius: 50%;
@@ -132,7 +199,7 @@
 @keyframes scaleFive {
     to {
         border-radius: 50%;
-        transform: translate(-50%,-50%) rotateX(135deg) rotate(1turn);
+        transform: translate(-50%, -50%) rotateX(135deg) rotate(1turn);
         opacity: 0
     }
 }
@@ -141,7 +208,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%) rotateX(100deg) rotate(0deg);
+    transform: translate(-50%, -50%) rotateX(100deg) rotate(0deg);
     width: 310px;
     height: 310px;
     border-radius: 50%;
@@ -154,7 +221,7 @@
 @keyframes scaleSix {
     to {
         border-radius: 50%;
-        transform: translate(-50%,-50%) rotateX(100deg) rotate(1turn);
+        transform: translate(-50%, -50%) rotateX(100deg) rotate(1turn);
         opacity: 0
     }
 }
@@ -163,7 +230,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%) rotateY(-105deg) rotate(0deg);
+    transform: translate(-50%, -50%) rotateY(-105deg) rotate(0deg);
     width: 310px;
     height: 310px;
     border-radius: 50%;
@@ -176,7 +243,7 @@
 @keyframes scaleSeven {
     to {
         border-radius: 50%;
-        transform: translate(-50%,-50%) rotateY(-105deg) rotate(1turn);
+        transform: translate(-50%, -50%) rotateY(-105deg) rotate(1turn);
         opacity: 0
     }
 }
@@ -185,7 +252,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%) rotateY(45deg) rotateX(45deg) rotate(0deg);
+    transform: translate(-50%, -50%) rotateY(45deg) rotateX(45deg) rotate(0deg);
     width: 310px;
     height: 310px;
     border-radius: 50%;
@@ -198,7 +265,7 @@
 @keyframes scaleEight {
     to {
         border-radius: 50%;
-        transform: translate(-50%,-50%) rotateY(45deg) rotateX(45deg) rotate(1turn);
+        transform: translate(-50%, -50%) rotateY(45deg) rotateX(45deg) rotate(1turn);
         opacity: 0
     }
 }
@@ -207,7 +274,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%) rotateY(135deg) rotateX(135deg) rotate(0deg);
+    transform: translate(-50%, -50%) rotateY(135deg) rotateX(135deg) rotate(0deg);
     width: 310px;
     height: 310px;
     border-radius: 50%;
@@ -220,7 +287,7 @@
 @keyframes scaleNine {
     to {
         border-radius: 50%;
-        transform: translate(-50%,-50%) rotateY(135deg) rotateX(135deg) rotate(1turn);
+        transform: translate(-50%, -50%) rotateY(135deg) rotateX(135deg) rotate(1turn);
         opacity: 0
     }
 }
@@ -229,7 +296,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%) rotateY(113deg) rotateX(115deg) rotate(0deg);
+    transform: translate(-50%, -50%) rotateY(113deg) rotateX(115deg) rotate(0deg);
     width: 310px;
     height: 310px;
     border-radius: 50%;
@@ -242,7 +309,7 @@
 @keyframes scaleTen {
     to {
         border-radius: 50%;
-        transform: translate(-50%,-50%) rotateY(113deg) rotateX(115deg) rotate(1turn);
+        transform: translate(-50%, -50%) rotateY(113deg) rotateX(115deg) rotate(1turn);
         opacity: 0
     }
 }
@@ -251,7 +318,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%) rotateX(-45deg) rotateY(-45deg) rotate(0deg);
+    transform: translate(-50%, -50%) rotateX(-45deg) rotateY(-45deg) rotate(0deg);
     width: 310px;
     height: 310px;
     border-radius: 50%;
@@ -264,7 +331,7 @@
 @keyframes scaleEleven {
     to {
         border-radius: 50%;
-        transform: translate(-50%,-50%) rotateX(-45deg) rotateY(-45deg) rotate(1turn);
+        transform: translate(-50%, -50%) rotateX(-45deg) rotateY(-45deg) rotate(1turn);
         opacity: 0
     }
 }

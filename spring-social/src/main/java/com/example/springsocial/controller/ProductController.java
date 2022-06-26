@@ -29,10 +29,13 @@ public class ProductController {
         return productService.getProductPricesByName(name);
     }
 
-    public static Product[] getProductsDatePriceFromDb(String nameOfProduct, String startDate, String endDate) throws SQLException, ClassNotFoundException {
+    @GetMapping("/product/createTable")
+    @PreAuthorize("hasRole('USER')")
+    @ResponseBody
+    public static Product[] getProductsDatePriceFromDb(@RequestParam("name") String nameOfProduct,@RequestParam("s") String startDate,@RequestParam("e") String endDate) throws SQLException, ClassNotFoundException {
 
-        Class.forName("com.mysql.cj.jdbc.Driver");
-        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3305/foodinfdb", "root", "SpaceMysql1!");
+        Class.forName("com.mysql.jdbc.Driver");
+        Connection conn = DriverManager.getConnection("jdbc:mysql://mysqldb:3306/foodinfdb", "root", "SpaceMysql1!");
         Statement stmt = conn.createStatement();
 
         int returnedProductId1 = getSelectDate(nameOfProduct, startDate, conn);
