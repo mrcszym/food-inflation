@@ -8,15 +8,15 @@ Authorization user is done with the use of JWT tokens.
 
 # Used technologies
 
-Docker
-Java 11
-Spring Boot
-Spring Security
-Maven
-Hibernate
-MySQL
-JavaScript
-React.js
+Docker,
+Java 11,
+Spring Boot,
+Spring Security,
+Maven,
+Hibernate,
+MySQL,
+JavaScript,
+React.js.
 
 ![image](https://user-images.githubusercontent.com/81679054/175812877-b4939ff4-7d6c-47a5-88ce-ad968a8b7fac.png)
 ![image](https://user-images.githubusercontent.com/81679054/175812888-ca7fd3e9-b8da-4289-819c-14a9889fa401.png)
